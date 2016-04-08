@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+<div class="modal">
+    <div class="modal-txt">do <span class="drop"></span><span>not</span> like</div>
+    <img  class="drag" src="img/comma-orange.svg" alt="">
+</div>
+<header class="js-hide">
+    <img class="header-logo" src="img/logo-volunteer.svg" alt="">
+
+    <div class="header-comma">
+        <img src="img/comma-orange.svg" alt="">
+    </div>
+    <a href="http://www.otkazniki.ru/" class="header-link">www.otkazniki.ru</a>
+</header>
+<main class="js-hide">
+    <section class="top">
+
+        <div class="top-wrapper layout-center">
+            <div class="comma-top">
+                <img src="img/comma-orange.svg" alt="">
+            </div>
+            <div class="top-left">
+                <h1 class="page-header">DO, NOT LIKE*</h1>
+                <p class="subheader">Делай, а не лайкай <br>
+                    От твоего участия зависит многое!</p>
+                <p class="main-txt">Мы помогаем малышам не разлучаться с мамами, поддерживаем детей-сирот в детских домах
+                    и больницах, находим им приемных родителей.
+                    Помогайте детям вместе с нами: подпишитесь
+                    на регулярные пожертвования или станьте волонтером.</p>
+            </div>
+
+            <form action="">
+                <div class="text-input">
+                    <label for="name">Ф.И.О</label>
+                    <input id="name" type="text">
+                </div>
+                <div class="text-input">
+                    <label for="sum">Cумма*</label>
+                    <input id="sum" type="text" required pattern="^[ 0-9]+$">
+                </div>
+                <div class="text-input">
+                    <label for="mail">Ваш e-mail *</label>
+                    <input id="mail" type="email" required>
+                </div>
+                <div class="text-input">
+                    <label for="tel">Телефон </label>
+                    <input id="tel" type="tel">
+                </div>
+
+                <div class="checkboxes">
+                    <input id="donate" type="checkbox"> <label for="donate">Пожертвовать</label>
+                    <input id="volunteer" type="checkbox"> <label for="volunteer">Стать волонтером</label>
+                    <input id="anonimous" type="checkbox"> <label for="anonimous">Я хочу, чтобы мое пожертвование было анонимным
+                </label>
+                </div>
+
+                <input type="submit" value="Подтвердить">
+            </form>
+        </div>
+
+        <img class="arrow" src="img/arrow.svg" alt="">
+
+    </section>
+
+    <section class="video">
+        <img class="comma-video1" src="img/comma-white.svg" alt="">
+        <img class="comma-video2" src="img/comma-orange.svg" alt="">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img class="bg" src="img/vid_thumb-1.jpg" alt="">
+                <div class="overlay">
+                    <img src="img/play.svg" alt="">
+                </div>
+            </div>
+            <div class="gallery-item active">
+                <img class="bg" src="img/vid_thumb-2.jpg" alt="">
+                <div class="overlay">
+                    <img src="img/play.svg" alt="">
+                </div>
+
+            </div>
+            <div class="gallery-item">
+                <img class="bg" src="img/vid_thumb-3.jpg" alt="">
+                <div class="overlay">
+                    <img src="img/play.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <img class="arrow" src="img/arrow.svg" alt="">
+    </section>
+
+    <section class="bottom">
+        <img src="img/comma-white.svg" alt="" class="comma-bottom">
+        <img src="img/comma-white.svg" alt="" class="comma-bottom-small">
+        <p class="bottom-txt"><span class="quotes">« </span>Делай, а не лайкай — социальная рекламная кампания, в основе которой
+            идея литературного
+            произведения Лии Гераскиной «В
+            стране невыученных уроков», где жизнь главного героя зависела от того, как он расставит знаки препинания в
+            предложениим.<span class="quotes"> »</span></p>
+        <p class="bottom-txt">
+            <img src="img/bottom-picture.png" alt="">
+            Эту идею мы решили транслировать в очень простом и понятном исполнении — «Do not like./Do, not like.
+            От твоего участия зависит многое». Простым маленьким действием мы можем изменить наше отношение
+            к проблеме: от слов «мне не нравится» до конкретного действия, которое помогает ее решить. Мы говорим каждому — «делай, а
+            не лайкай».
+        </p>
+        <p class="bottom-txt">Социальная реклама ориентирована, прежде всего, на потенциальных волонтеров, приемных родителей, а также всех
+            заинтересованных и неравнодушных людей, которых хотят и могут помочь.
+            Волонтеры в ролике призывают людей не к автоматическому нажатию на символ «лайк», а к действиям, которые помогают изменить
+            жизнь детей к лучшему.
+        </p>
+    </section>
+
+
+</main>
+<footer class="js-hide">
+    <div class="layout-center">
+    <img width="257px" src="img/logo-volunteer.svg" alt="">
+    <img width="196px" src="img/logo-stem.svg" alt="">
+    </div>
+</footer>
+
+<script src="js/vendor.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
