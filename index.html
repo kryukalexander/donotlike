@@ -12,10 +12,10 @@
 <body>
 <div class="modal">
     <div class="modal-txt">do <span class="drop"></span><span>not</span> like</div>
-    <img  class="drag" src="img/comma-orange.svg" alt="">
+    <img class="drag" src="img/comma-orange.svg" alt="">
 </div>
 <header class="js-hide">
-    <img class="header-logo" src="img/logo-volunteer.svg" alt="">
+    <img class="header-logo" src="img/logo-volunteer.png" alt="">
 
     <div class="header-comma">
         <img src="img/comma-orange.svg" alt="">
@@ -73,27 +73,50 @@
     </section>
 
     <section class="video">
+        <div class="vid-modal" id="vid1">
+            <video>
+                <source src="video/video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="vid-modal" id="vid2">
+            <video>
+                <source src="video/video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="vid-modal" id="vid3">
+            <video>
+                <source src="video/video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
         <img class="comma-video1" src="img/comma-white.svg" alt="">
         <img class="comma-video2" src="img/comma-orange.svg" alt="">
-        <div class="gallery">
-            <div class="gallery-item">
-                <img class="bg" src="img/vid_thumb-1.jpg" alt="">
-                <div class="overlay">
-                    <img src="img/play.svg" alt="">
-                </div>
-            </div>
-            <div class="gallery-item active">
-                <img class="bg" src="img/vid_thumb-2.jpg" alt="">
-                <div class="overlay">
-                    <img src="img/play.svg" alt="">
+
+        <div class="layout-center">
+            <div class="gallery">
+                <img src="img/arrow_left.svg" class="control" id="minus">
+                <img src="img/arrow_left.svg" class="control" id="plus">
+
+                <div class="gallery-item">
+                    <img src="img/vid_thumb-1.jpg" alt="">
+                    <div class="overlay"></div>
                 </div>
 
-            </div>
-            <div class="gallery-item">
-                <img class="bg" src="img/vid_thumb-3.jpg" alt="">
-                <div class="overlay">
-                    <img src="img/play.svg" alt="">
+                <div class="gallery-item">
+                    <img src="img/vid_thumb-2.jpg" alt="">
+                    <div class="overlay"></div>
                 </div>
+
+                <div class="gallery-item">
+                    <img src="img/vid_thumb-3.jpg" alt="">
+                    <div class="overlay"></div>
+                </div>
+
             </div>
         </div>
 
@@ -115,7 +138,8 @@
             к проблеме: от слов «мне не нравится» до конкретного действия, которое помогает ее решить. Мы говорим каждому — «делай, а
             не лайкай».
         </p>
-        <p class="bottom-txt">Социальная реклама ориентирована, прежде всего, на потенциальных волонтеров, приемных родителей, а также всех
+        <p class="bottom-txt">Социальная реклама ориентирована, прежде всего, на потенциальных волонтеров, приемных родителей, а также
+            всех
             заинтересованных и неравнодушных людей, которых хотят и могут помочь.
             Волонтеры в ролике призывают людей не к автоматическому нажатию на символ «лайк», а к действиям, которые помогают изменить
             жизнь детей к лучшему.
@@ -126,8 +150,8 @@
 </main>
 <footer class="js-hide">
     <div class="layout-center">
-    <img width="257px" src="img/logo-volunteer.svg" alt="">
-    <img width="196px" src="img/logo-stem.svg" alt="">
+        <img width="257px" src="img/logo-volunteer.png" alt="">
+        <img width="196px" src="img/logo-stem.svg" alt="">
     </div>
 </footer>
 
