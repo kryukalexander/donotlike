@@ -9,11 +9,16 @@
     <link rel="stylesheet" href="css/style.min.css">
 
 </head>
+
 <body>
+
+<!--ENTERING WINDOW-->
 <div class="modal">
-    <div class="modal-txt">do <span class="drop"></span><span>not</span> like</div>
+    <div class="modal-txt">do<span class="drop"></span><span>not</span>like</div>
     <img class="drag" src="img/comma-orange.svg" alt="">
 </div>
+
+<!--HEADER-->
 <header class="js-hide">
     <img class="header-logo" src="img/logo-volunteer.png" alt="">
 
@@ -22,7 +27,9 @@
     </div>
     <a href="http://www.otkazniki.ru/" class="header-link">www.otkazniki.ru</a>
 </header>
+
 <main class="js-hide">
+    <!--TOP SECTION-->
     <section class="top">
 
         <div class="top-wrapper layout-center">
@@ -39,18 +46,19 @@
                     на регулярные пожертвования или станьте волонтером.</p>
             </div>
 
-            <form action="">
+            <!--FORM-->
+            <form class="donate-form" action="">
                 <div class="text-input">
                     <label for="name">Ф.И.О</label>
                     <input id="name" type="text">
                 </div>
                 <div class="text-input">
-                    <label for="sum">Cумма*</label>
+                    <label for="sum">Cумма</label>
                     <input id="sum" type="text" required pattern="^[ 0-9]+$">
                 </div>
                 <div class="text-input">
-                    <label for="mail">Ваш e-mail *</label>
-                    <input id="mail" type="email" required>
+                    <label for="mail">Ваш e-mail</label>
+                    <input id="mail" type="email">
                 </div>
                 <div class="text-input">
                     <label for="tel">Телефон </label>
@@ -58,13 +66,14 @@
                 </div>
 
                 <div class="checkboxes">
-                    <input id="donate" type="checkbox"> <label for="donate">Пожертвовать</label>
-                    <input id="volunteer" type="checkbox"> <label for="volunteer">Стать волонтером</label>
-                    <input id="anonimous" type="checkbox"> <label for="anonimous">Я хочу, чтобы мое пожертвование было анонимным
+                    <input id="donate" name="alt" type="radio" value="http://otkazniki.ru/donation/" checked> <label for="donate">
+                    Пожертвовать</label>
+                    <input id="volunteer" name="alt" type="radio" value="http://otkazniki.ru/signup.php"> <label for="volunteer">Стать волонтером</label>
+                    <input id="anonymous" type="checkbox"> <label for="anonymous">Я хочу, чтобы мое пожертвование было анонимным
                 </label>
                 </div>
 
-                <input type="submit" value="Подтвердить">
+                <input type="submit">
             </form>
         </div>
 
@@ -72,6 +81,7 @@
 
     </section>
 
+    <!--VIDEO-->
     <section class="video">
         <div class="vid-modal" id="vid1">
             <video preload="metadata">
@@ -123,6 +133,7 @@
         <img class="arrow" src="img/arrow.svg" alt="">
     </section>
 
+    <!--BOTTOM-SECTION-->
     <section class="bottom">
         <img src="img/comma-white.svg" alt="" class="comma-bottom">
         <img src="img/comma-white.svg" alt="" class="comma-bottom-small">
@@ -148,6 +159,8 @@
 
 
 </main>
+
+<!--FOOTER-->
 <footer class="js-hide">
     <div class="layout-center">
         <img width="257px" src="img/logo-volunteer.png" alt="">
