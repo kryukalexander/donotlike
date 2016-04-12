@@ -14,13 +14,13 @@
 
 <!--ENTERING WINDOW-->
 <div class="modal">
-    <div class="modal-txt">do<span class="drop"></span><span>not</span>like</div>
+    <div class="modal-txt">do<span class="drop"></span><span>not </span>like</div>
     <img class="drag" src="img/comma-orange.svg" alt="">
 </div>
 
 <!--HEADER-->
 <header class="js-hide">
-    <img class="header-logo" src="img/logo-volunteer.png" alt="">
+    <a href="http://www.otkazniki.ru/"><img class="header-logo" src="img/logo-volunteer.png" alt=""></a>
 
     <div class="header-comma">
         <img src="img/comma-orange.svg" alt="">
@@ -31,11 +31,11 @@
 <main class="js-hide">
     <!--TOP SECTION-->
     <section class="top">
-
+        <div class="comma-top">
+            <img src="img/comma-orange.svg" alt="">
+        </div>
         <div class="top-wrapper layout-center">
-            <div class="comma-top">
-                <img src="img/comma-orange.svg" alt="">
-            </div>
+
             <div class="top-left">
                 <h1 class="page-header">DO, NOT LIKE*</h1>
                 <p class="subheader">Делай, а не лайкай <br>
@@ -47,7 +47,14 @@
             </div>
 
             <!--FORM-->
-            <form class="donate-form" action="">
+            <form class="donate-form" target="" action="" method="">
+                <div class="checkboxes">
+                    <input id="donate" name="alt" type="radio" value="http://otkazniki.ru/donation/?dtype=once&target=1" checked>
+                    <label for="donate">
+                        Пожертвовать</label>
+                    <input id="volunteer" name="alt" type="radio" value="http://otkazniki.ru/signup.php">
+                    <label for="volunteer">Стать волонтером</label>
+                </div>
                 <div class="text-input">
                     <label for="name">Ф.И.О</label>
                     <input id="name" type="text">
@@ -66,9 +73,11 @@
                 </div>
 
                 <div class="checkboxes">
-                    <input id="donate" name="alt" type="radio" value="http://otkazniki.ru/donation/" checked> <label for="donate">
-                    Пожертвовать</label>
-                    <input id="volunteer" name="alt" type="radio" value="http://otkazniki.ru/signup.php"> <label for="volunteer">Стать волонтером</label>
+                    <!--<input id="donate" name="alt" type="radio" value="http://otkazniki.ru/donation/?dtype=once&target=1" checked>-->
+                    <!--<label for="donate">-->
+                    <!--Пожертвовать</label>-->
+                    <!--<input id="volunteer" name="alt" type="radio" value="http://otkazniki.ru/signup.php"> -->
+                    <!--<label for="volunteer">Стать волонтером</label>-->
                     <input id="anonymous" type="checkbox"> <label for="anonymous">Я хочу, чтобы мое пожертвование было анонимным
                 </label>
                 </div>
@@ -127,6 +136,15 @@
                     <div class="overlay"></div>
                 </div>
 
+                <div class="indicators">
+                    <input class="ind" type="radio" name="indicator" value="s1" id="s1" checked>
+                    <label for="s1"></label>
+                    <input class="ind" type="radio" name="indicator" value="s2" id="s2">
+                    <label for="s2"></label>
+                    <input class="ind" type="radio" name="indicator" value="s3" id="s3">
+                    <label for="s3"></label>
+                </div>
+
             </div>
         </div>
 
@@ -163,7 +181,7 @@
 <!--FOOTER-->
 <footer class="js-hide">
     <div class="layout-center">
-        <img width="257px" src="img/logo-volunteer.png" alt="">
+        <a href="http://www.otkazniki.ru/"><img width="257px" src="img/logo-volunteer.png" alt=""></a>
         <img width="196px" src="img/logo-stem.svg" alt="">
     </div>
 </footer>
